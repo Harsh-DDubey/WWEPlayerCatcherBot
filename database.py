@@ -17,7 +17,8 @@ try:
         host='dpg-ctl8d6jv2p9s738e63fg-a',
         user='player_database_user',
         password='rSqlNIZMfIsUJIZ6srwri58rW571f5Mk',
-        database='player_database'
+        database='player_database',
+        port='5432'
     )
     print("Database Connection Successful")
 except Exception as e:
