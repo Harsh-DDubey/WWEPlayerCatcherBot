@@ -14,10 +14,10 @@ client=Client(api_id=27453180,api_hash='fa3afae62293f71ad51eb642cbd903b9',bot_to
 
 try:
     connection = psycopg2.connect(
-        host='localhost',
-        user='postgres',
-        password='Harshit@1',
-        database='wwe_players'
+        host='dpg-ctl8d6jv2p9s738e63fg-a',
+        user='player_database_user',
+        password='rSqlNIZMfIsUJIZ6srwri58rW571f5Mk',
+        database='player_database'
     )
     print("Database Connection Successful")
 except Exception as e:
